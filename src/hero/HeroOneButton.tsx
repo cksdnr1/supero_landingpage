@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Grid, Card } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 
 type IHeroOneButtonProps = {
     title: ReactNode;
