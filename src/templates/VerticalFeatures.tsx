@@ -5,7 +5,7 @@ import { Background } from '../background/Background';
 const VerticalFeatures = () => (
     <Background color="bg-[#101012]">
         <Section
-            title="슈페로와 운동을 시작해보세요!"
+            title="슈페로와 운동 해보세요!"
             description="슈페로는 운동을 도전하고 공유하기여 즐기기 위해 만들어졌어요"
             yPadding='py-0'
         >
