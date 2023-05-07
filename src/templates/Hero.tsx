@@ -35,7 +35,7 @@ const Hero = () => (
                             <Button xl>
                                 <img
                                     className='mb-5'
-                                    src="/assets/images/Google Play.svg"
+                                    src="/assets/images/Google Play.png"
                                     alt="슈페로 구글 플레이"
                                 />
                             </Button>
@@ -48,7 +48,7 @@ const Hero = () => (
                             <Button xl>
                                 <img
                                     className='mb-5'
-                                    src="/assets/images/App Store.svg"
+                                    src="/assets/images/App Store.png"
                                     alt="슈페로 앱스토어"
                                 />
                             </Button>

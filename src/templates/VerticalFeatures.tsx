@@ -6,7 +6,7 @@ const VerticalFeatures = () => (
     <Background color="bg-[#101012]">
         <Section
             title="슈페로와 운동 해보세요!"
-            description="슈페로는 운동을 도전하고 공유하기여 즐기기 위해 만들어졌어요"
+            description="슈페로는 운동을 도전하고 공유하여 즐기기 위해 만들어졌어요"
             yPadding='py-0'
         >
             <VerticalFeatureRow
@@ -21,7 +21,7 @@ const VerticalFeatures = () => (
                 titleColor = "text-primary-600"
                 description="운동 후 친구에게 운동 기록을 피드로 공유 할 수 있어요. 친구 운동을 좋아해보고 댓글로 응원해보세요. 즐거운 운동이 될 수 있어요."
                 image="/assets/images/feed_image.png"
-                imageAlt="Second feature alt text"
+                imageAlt="슈페로 피드 영상"
                 reverse
             />
             <VerticalFeatureRow
@@ -29,7 +29,7 @@ const VerticalFeatures = () => (
                 titleColor = "text-primary-500"
                 description="필요한 운동은 즉시 만들 수 있어요. 개인 맞춤형의 새로운 운동으로 루틴을 만들어 보세요. 언제든지 원하는 운동을 할 수 있어요."
                 image="/assets/images/ex_custom.png"
-                imageAlt="Third feature alt text"
+                imageAlt="커스텀 운동 영상"
             />
         </Section>
     </Background>
