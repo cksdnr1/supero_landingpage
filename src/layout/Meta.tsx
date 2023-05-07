@@ -17,6 +17,12 @@ const Meta = (props: IMetaProps) => {
     <>
       <Head>
         <meta charSet="UTF-8" key="charset" />
+                <meta
+                    httpEquiv="Content-Type"
+                    content="text/html; charset=utf-8"
+                />
+
+                <meta name="content-language" content="kr" />
         <meta
           name="viewport"
           content="width=device-width,initial-scale=1"
@@ -45,6 +51,11 @@ const Meta = (props: IMetaProps) => {
           rel="icon"
           href={`${router.basePath}/supero.jpg`}
           key="favicon"
+        />
+        <meta
+            property="og:image"
+          content={`${router.basePath}/supero.jpg`}
+          key="ogimage"
         />
       </Head>
       <NextSeo

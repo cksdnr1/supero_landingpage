@@ -22,9 +22,7 @@ const Hero = () => (
             <HeroOneButton
                 title={
                     <>
-                        {'운동'} <span className="text-primary-600">기록</span>
-                        {'하고, '}
-                        <span className="text-primary-600">극복</span>
+                        {'운동'} <span className="text-primary-600">기록, 극복</span>
                         {'하고\n'}
                         <span className="text-primary-500">친구들과 공유</span>
                         하자!
