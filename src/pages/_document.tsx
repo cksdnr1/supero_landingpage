@@ -13,6 +13,23 @@ class MyDocument extends Document {
                         name="naver-site-verification"
                         content="86ecd7dbe6936b70fbb173d445ee7db0d33ed543"
                     />
+                    <script
+                        async
+                        src={`https://www.googletagmanager.com/gtag/js?id=G-Y06KP30RY0`}
+                    />
+                    <script
+                        // eslint-disable-next-line react/no-danger
+                        dangerouslySetInnerHTML={{
+                            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Y06KP30RY0', {
+              page_path: window.location.pathname,
+            });
+          `,
+                        }}
+                    />
                 </Head>
                 <body>
                     <Main />
