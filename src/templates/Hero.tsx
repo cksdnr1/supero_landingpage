@@ -18,7 +18,7 @@ const Hero = () => (
                 </li>
             </NavbarTwoColumns>
         </Section>
-        <Section yPadding="pt-20 pb-32">
+        <Section yPadding="pt-20 pb-20">
             <HeroOneButton
                 title={
                     <>
@@ -34,6 +34,7 @@ const Hero = () => (
                         <a>
                             <Button xl>
                                 <img
+                                    className='mb-5'
                                     src="/assets/images/Google Play.svg"
                                     alt="슈페로 구글 플레이"
                                 />
@@ -46,6 +47,7 @@ const Hero = () => (
                         <a>
                             <Button xl>
                                 <img
+                                    className='mb-5'
                                     src="/assets/images/App Store.svg"
                                     alt="슈페로 앱스토어"
                                 />

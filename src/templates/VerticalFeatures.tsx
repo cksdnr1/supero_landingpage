@@ -7,6 +7,7 @@ const VerticalFeatures = () => (
         <Section
             title="슈페로와 운동을 시작해보세요!"
             description="슈페로는 운동을 도전하고 공유하기여 즐기기 위해 만들어졌어요"
+            yPadding='py-0'
         >
             <VerticalFeatureRow
                 title="276개의 움직이는 운동"
