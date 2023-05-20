@@ -5,8 +5,8 @@ import { Background } from '../background/Background';
 const VerticalFeatures = () => (
     <Background color="bg-[#101012]">
         <Section
-            title="슈페로와 운동 해보세요!"
-            description="슈페로는 운동을 도전하고 공유하여 즐기기 위해 만들어졌어요"
+            title="수페로와 운동 해보세요!"
+            description="수페로는 운동을 도전하고 공유하여 즐기기 위해 만들어졌어요"
             yPadding='py-0'
         >
             <VerticalFeatureRow
@@ -14,14 +14,14 @@ const VerticalFeatures = () => (
                 titleColor = "text-primary-500"
                 description="움직이는 영상으로 쉽게 바벨, 덤벨, 맨몸, 유산소등 276개의 운동을 시작 할 수 있어요. 루틴으로 자신만의 운동을 관리하고 기록하고 중량을 늘려보세요."
                 image="/assets/images/143613-7a28cb_360.webp"
-                imageAlt="슈페로 운동 이미지 영상"
+                imageAlt="수페로 운동 이미지 영상"
             />
             <VerticalFeatureRow
                 title="친구와 공유되는 피드"
                 titleColor = "text-primary-600"
                 description="운동 후 친구에게 운동 기록을 피드로 공유 할 수 있어요. 친구 운동을 좋아해보고 댓글로 응원해보세요. 즐거운 운동이 될 수 있어요."
                 image="/assets/images/feed_image.png"
-                imageAlt="슈페로 피드 영상"
+                imageAlt="수페로 피드 영상"
                 reverse
             />
             <VerticalFeatureRow

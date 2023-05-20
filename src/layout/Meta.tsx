@@ -24,8 +24,8 @@ const Meta = (props: IMetaProps) => {
 
                 <meta name="content-language" content="kr" />
                 <meta name="keywords" content="운동기록, 운동어플, 운동일지" />
-                <meta name="author" content="Supero-슈페로, 운동어플" />
-                <meta name="publisher" content="Supero-슈페로, 운동어플" />
+                <meta name="author" content="Supero-수페로, 운동어플" />
+                <meta name="publisher" content="Supero-수페로, 운동어플" />
                 <meta
                     name="viewport"
                     content="width=device-width,initial-scale=1"
@@ -35,6 +35,10 @@ const Meta = (props: IMetaProps) => {
                     rel="apple-touch-icon"
                     href={`${router.basePath}/supero.jpg`}
                     key="apple"
+                />
+                <link
+                    rel="shortcut icon"
+                    href={`${router.basePath}/supero.jpg`}
                 />
                 <link
                     rel="icon"
