@@ -6,23 +6,16 @@ import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
+import { VerticalFeatures } from './VerticalFeatures';
 
-const Hero = () => (
-    <Background color="bg-[#101012]">
-        <Section yPadding="py-6">
-            <NavbarTwoColumns logo={<Logo xl />}>
-                <li>
-                    <Link href="/policy">
-                        <a>개인 정보</a>
-                    </Link>
-                </li>
-            </NavbarTwoColumns>
-        </Section>
+const Main = () => (
+    <>
         <Section yPadding="pt-20 pb-20">
             <HeroOneButton
                 title={
                     <>
-                        {'운동'} <span className="text-primary-600">기록, 극복</span>
+                        {'운동'}{' '}
+                        <span className="text-primary-600">기록, 극복</span>
                         {'하고\n'}
                         <span className="text-primary-500">친구들과 공유</span>
                         하자!
@@ -34,7 +27,7 @@ const Hero = () => (
                         <a>
                             <Button xl>
                                 <img
-                                    className='mb-5'
+                                    className="mb-5"
                                     src="/assets/images/Google Play.png"
                                     alt="수페로 구글 플레이"
                                 />
@@ -47,7 +40,7 @@ const Hero = () => (
                         <a>
                             <Button xl>
                                 <img
-                                    className='mb-5'
+                                    className="mb-5"
                                     src="/assets/images/App Store.png"
                                     alt="수페로 앱스토어"
                                 />
@@ -57,7 +50,8 @@ const Hero = () => (
                 }
             />
         </Section>
-    </Background>
+        <VerticalFeatures />
+    </>
 );
 
-export { Hero };
+export { Main };
